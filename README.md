@@ -7,3 +7,5 @@ parcel index.html
 
 After changing your image with images/fair-area-jpeg  
 You need to update fair.js coordinates and fair point details.
+
+Demo: https://virtual-online-fair.web.app/

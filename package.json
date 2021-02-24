@@ -1,0 +1,27 @@
+{
+  "name": "ol-virtual-online-fair",
+  "version": "1.0.0",
+  "description": "Create virtual fairs with 2D images with OpenLayers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Ugur Atmaca",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "image-size": "^0.9.3",
+    "ol": "^6.4.3",
+    "probe-image-size": "^6.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.1"
+  },
+  "staticFiles": {
+    "staticPath": "images",
+    "watcherGlob": "**"
+  }
+}

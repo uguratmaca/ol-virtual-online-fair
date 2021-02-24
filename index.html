@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>The Virtual Online Fair</title>
+    <script src="https://unpkg.com/elm-pep"></script>
+    <style>
+        .map {
+            width: 1920px;
+            height: 560px;
+            max-height: 720px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">The Virtual Online Fair</h1>
+    <div id="map" class="map" style="width: 65%;float: left;"></div>
+    <div id="info" style="width: 32%;float: left; padding-left: 2%;">
+        <h2>Info Panel</h2>
+        <h3 id="fairOwner"></h3>
+        <p id="fairInfo">Click check points to discover projects</p>
+        <a id="anchor" href="#"></a>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
